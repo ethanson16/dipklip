@@ -1,0 +1,23 @@
+.header {
+    height: 100px;
+    background-color: gray;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-header {
+flex: 1;
+
+}
+.middle-header {
+flex: 1;
+
+}
+.right-header {
+flex: 1;
+
+}
