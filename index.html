@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <Title>Crayon Gang EDCLV 2025</Title>
+        <Title>EDCLV 2025</Title>
 
         <link rel="stylesheet" href="css/global.css">
         <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/whos-going.css">
+        <link rel="stylesheet" href="css/main.css">
         
 
 
@@ -29,22 +31,20 @@
         <div class="main-area">
             <div class="left-main">
                 <div>Who's Going</div>
-                <ul>
-                    <li><div>Ethan</div></li>
-                    <li>Ethan</li>
-                    <li>Ethan</li>
-                    <li>Ethan</li>
-                    <li>Ethan</li>
-                </ul>
+                <ol class="whos-going-ol js-person-list">
+                    
+                
+                </ol>
                 
             </div>
 
-            <div>
-
+            <div class="middle-main">
+                <input placeholder="Name" class="js-name-input" onkeydown="enterKeydown(event)">
+                <button onclick="addPerson()">Go</button>
             </div>
         </div>
        
-
+        <script src="scripts/whos-going.js"></script>
 
     </body>
 </html>

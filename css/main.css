@@ -1,0 +1,15 @@
+.main-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-main {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.middle-main {
+    flex: 2;
+    margin-top: 30px;
+}
