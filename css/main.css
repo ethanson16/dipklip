@@ -1,15 +1,24 @@
 .main-area {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .left-main {
-    margin-left: 50px;
-    margin-top: 30px;
-    width: 400px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 400px;
 }
 
 .middle-main {
-    flex: 2;
-    margin-top: 30px;
+  flex: 2;
+  margin-top: 30px;
+}
+.etsy-button {
+  padding: 200px;
+  border: solid;
+  background-color: rgb(169, 178, 184);
+  position: fixed;
+  margin-top: 100px;
+
+  border-width: 1px;
 }

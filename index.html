@@ -1,50 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <Title>Ebo Labs</Title>
+  <head>
+    <title>DipKlip</title>
 
-        <link rel="stylesheet" href="css/global.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/whos-going.css">
-        <link rel="stylesheet" href="css/main.css">
-        
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/whos-going.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-header">
+        <p class="left-header-p">NICE! you've made it to DipKlip.com!</p>
+      </div>
 
+      <div class="middle-header"></div>
 
-    </head>
-    <body>
-        <div class="header">
+      <div class="right-header"></div>
+    </div>
+    <div class="main-area">
+      <div class="left-main"></div>
 
-            <div class="left-header">
-                <p class="left-header-p">EboLabs Site in construction</p>
-            </div>
+      <div class="middle-main">
+        <h1>This website does nothing, go to the etsy shop below.</h1>
+        <a class="etsy-button" href="https://www.etsy.com/shop/EboLabs"
+          >DipKlip on Etsy</a
+        >
+      </div>
+    </div>
 
-            <div class="middle-header">
-                <input placeholder="EboLabs" class="group-input">
-                <button class="go-button">GO</button>
-            </div>
-
-            <div class="right-header">
-                <a class="account-anchor">Account</a>
-                
-            </div>
-        </div>
-        <div class="main-area">
-            <div class="left-main">
-                <div> </div>
-                <ol class="whos-going-ol js-person-list">
-                    
-                
-                </ol>
-                
-            </div>
-
-            <div class="middle-main">
-                <input placeholder="Name" class="js-name-input" onkeydown="enterKeydown(event)">
-                <button onclick="addPerson()">Go</button>
-            </div>
-        </div>
-       
-        <script src="scripts/whos-going.js"></script>
-
-    </body>
+    <script src="scripts/whos-going.js"></script>
+  </body>
 </html>
